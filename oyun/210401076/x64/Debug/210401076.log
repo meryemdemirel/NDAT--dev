@@ -1,0 +1,38 @@
+﻿  main.cpp
+C:\Users\mrymd\OneDrive\Masaüstü\oyun\210401076\main.cpp(65,23): warning C4305: 'bağımsız değişken': 'double' iken 'GLfloat' olarak kesildi
+C:\Users\mrymd\OneDrive\Masaüstü\oyun\210401076\main.cpp(172,1): warning C4305: '*=': 'double' iken 'float' olarak kesildi
+C:\Users\mrymd\OneDrive\Masaüstü\oyun\210401076\main.cpp(213,1): warning C4305: '*=': 'double' iken 'float' olarak kesildi
+C:\Users\mrymd\OneDrive\Masaüstü\oyun\210401076\main.cpp(218,1): warning C4305: '*=': 'double' iken 'float' olarak kesildi
+D:\Yeni klasör\VC\Tools\MSVC\14.36.32532\include\xutility(265,77): warning C4244: 'bağımsız değişken': '_Ty' - 'float' dönüşümü; veri kaybı olabilir
+          with
+          [
+              _Ty=int
+          ]
+D:\Yeni klasör\VC\Tools\MSVC\14.36.32532\include\memory(2092,13): message : derlenen şablon işlevi 'void std::_Construct_in_place<_Ty,int,int,int,int,int>(_Ty &,int &&,int &&,int &&,int &&,int &&) noexcept(false)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Ty=Player
+          ]
+D:\Yeni klasör\VC\Tools\MSVC\14.36.32532\include\memory(2765,46): message : derlenen şablon işlevi 'std::_Ref_count_obj2<Player>::_Ref_count_obj2<_Ty,_Ty,_Ty,_Ty,_Ty>(_Ty &&,_Ty &&,_Ty &&,_Ty &&,_Ty &&)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\mrymd\OneDrive\Masaüstü\oyun\210401076\main.cpp(397,11): message : derlenen şablon işlevi 'std::shared_ptr<Player> std::make_shared<Player,int,int,int,int,int>(int &&,int &&,int &&,int &&,int &&)' örneği oluşturma başvurusuna bakın
+D:\Yeni klasör\VC\Tools\MSVC\14.36.32532\include\xutility(265,77): warning C4244: 'bağımsız değişken': '_Ty' - 'float' dönüşümü; veri kaybı olabilir
+          with
+          [
+              _Ty=double
+          ]
+D:\Yeni klasör\VC\Tools\MSVC\14.36.32532\include\memory(2092,13): message : derlenen şablon işlevi 'void std::_Construct_in_place<_Ty,int,int,int,int,double,int,int,double>(_Ty &,int &&,int &&,int &&,int &&,double &&,int &&,int &&,double &&) noexcept(false)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Ty=Enemy
+          ]
+D:\Yeni klasör\VC\Tools\MSVC\14.36.32532\include\memory(2765,46): message : derlenen şablon işlevi 'std::_Ref_count_obj2<Enemy>::_Ref_count_obj2<_Ty,_Ty,_Ty,_Ty,double,_Ty,_Ty,double>(_Ty &&,_Ty &&,_Ty &&,_Ty &&,double &&,_Ty &&,_Ty &&,double &&)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\mrymd\OneDrive\Masaüstü\oyun\210401076\main.cpp(398,16): message : derlenen şablon işlevi 'std::shared_ptr<Enemy> std::make_shared<Enemy,int,int,int,int,double,int,int,double>(int &&,int &&,int &&,int &&,double &&,int &&,int &&,double &&)' örneği oluşturma başvurusuna bakın
+  210401076.vcxproj -> C:\Users\mrymd\OneDrive\Masaüstü\oyun\x64\Debug\210401076.exe
